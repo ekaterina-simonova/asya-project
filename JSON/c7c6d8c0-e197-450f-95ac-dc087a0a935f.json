@@ -1,0 +1,80 @@
+{
+  "call_id": "c7c6d8c0-e197-450f-95ac-dc087a0a935f",
+  "timestamp": "2025-08-21T03:56:58.221620",
+  "client_data": {
+    "phone_number": "89573625142",
+    "name": "Аванес",
+    "object": "",
+    "city": "москва",
+    "region": {
+      "code": "сentral_fd",
+      "name": "сentral_fd"
+    },
+    "inn": null,
+    "company": null,
+    "is_duplicate_city": false,
+    "assigned_manager_id": null,
+    "last_call_summary": "",
+    "comment": null
+  },
+  "request_details": {
+    "department": "Коммерческий",
+    "product_service": null,
+    "request_text": ""
+  },
+  "transcription": [
+    {
+      "speaker": "bot",
+      "text": "[SYSTEM_COMMAND]SET_STAGE:Выбор отдела[/SYSTEM_COMMAND]\n\nЗдравствуйте, Аванес! Рада снова слышать вас. Я Ася, нейропомощник МиК-Изол. С каким отделом вас соединить: Коммерческий, Бухгалтерский, Отдел логистики, Отдел закупок, Отдел маркетинга?",
+      "timestamp": "03:57:18"
+    },
+    {
+      "speaker": "client",
+      "text": "коммерческим",
+      "timestamp": "03:57:28"
+    },
+    {
+      "speaker": "bot",
+      "text": " [SYSTEM_COMMAND]UPDATE_PROFILE_FIELD:Отдел=Коммерческий[/SYSTEM_COMMAND]\n\nДля соединения с менеджером коммерческого отдела мне нужно знать ваш город. Это поможет направить вас к специалисту, который работает с вашим регионом. Из какого вы города?",
+      "timestamp": "03:57:38"
+    },
+    {
+      "speaker": "client",
+      "text": "масква",
+      "timestamp": "03:57:48"
+    },
+    {
+      "speaker": "bot",
+      "text": " [SYSTEM_COMMAND]UPDATE_PROFILE_FIELD:Город=Москва[/SYSTEM_COMMAND]\n\nПожалуйста, уточните, по какому вопросу вы хотите связаться с коммерческим отделом?",
+      "timestamp": "03:57:58"
+    },
+    {
+      "speaker": "client",
+      "text": "по возврату",
+      "timestamp": "03:58:08"
+    },
+    {
+      "speaker": "bot",
+      "text": "  [SYSTEM_COMMAND]UPDATE_PROFILE_FIELD:Потребность=Возврат товара[/SYSTEM_COMMAND]\n\nДавайте проверим информацию: ваше имя - Аванес, контактный телефон - 89573625142, город - Москва, вы хотите связаться с коммерческим отделом по вопросу возврата товара. Всё верно?",
+      "timestamp": "03:58:18"
+    },
+    {
+      "speaker": "client",
+      "text": "да",
+      "timestamp": "03:58:28"
+    }
+  ],
+  "action": {
+    "next_step": "transfer",
+    "target_department": "Коммерческий",
+    "manager_id": "mgr_placeholder"
+  },
+  "metadata": {
+    "is_repeat_call": true,
+    "call_history_id": [],
+    "is_work_time": true,
+    "sip_status": "answered",
+    "llm_retry_count": 0,
+    "fallback_triggered": false
+  }
+}

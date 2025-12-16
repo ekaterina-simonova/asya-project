@@ -1,0 +1,120 @@
+{
+  "call_id": "cf15b5bc-8b0a-43ec-94b4-520714677706",
+  "timestamp": "2025-08-21T02:26:42.470685",
+  "client_data": {
+    "phone_number": "89573625142",
+    "name": "Аванес",
+    "object": "",
+    "city": "москва",
+    "region": {
+      "code": "сentral_fd",
+      "name": "сentral_fd"
+    },
+    "inn": null,
+    "company": null,
+    "is_duplicate_city": false,
+    "assigned_manager_id": null,
+    "last_call_summary": "",
+    "comment": null
+  },
+  "request_details": {
+    "department": "Коммерческий",
+    "product_service": null,
+    "request_text": ""
+  },
+  "transcription": [
+    {
+      "speaker": "bot",
+      "text": " Здравствуйте, Аванес! Рада снова слышать вас. Я Ася, нейропомощник МиК-Изол. Соединить Вас с оператором или проконсультировать по продуктам?",
+      "timestamp": "02:27:02"
+    },
+    {
+      "speaker": "client",
+      "text": "с оператором",
+      "timestamp": "02:27:12"
+    },
+    {
+      "speaker": "bot",
+      "text": "  Хорошо, Аванес. С каким отделом вас соединить: Коммерческий, Бухгалтерский, Отдел логистики, Отдел закупок, Отдел маркетинга?",
+      "timestamp": "02:27:22"
+    },
+    {
+      "speaker": "client",
+      "text": "коммерческий",
+      "timestamp": "02:27:32"
+    },
+    {
+      "speaker": "bot",
+      "text": "   Для соединения с менеджером коммерческого отдела мне нужно знать ваш город. Это поможет направить вас к специалисту, который работает с вашим регионом. Из какого вы города?",
+      "timestamp": "02:27:42"
+    },
+    {
+      "speaker": "client",
+      "text": "Москва",
+      "timestamp": "02:27:52"
+    },
+    {
+      "speaker": "bot",
+      "text": "   Записала! Из какого отдела вы хотите связаться с нами?",
+      "timestamp": "02:28:02"
+    },
+    {
+      "speaker": "client",
+      "text": "коммерческий",
+      "timestamp": "02:28:12"
+    },
+    {
+      "speaker": "bot",
+      "text": "    Я правильно вас поняла, вы хотите связаться с коммерческим отделом?",
+      "timestamp": "02:28:22"
+    },
+    {
+      "speaker": "client",
+      "text": "да",
+      "timestamp": "02:28:32"
+    },
+    {
+      "speaker": "bot",
+      "text": "    Пожалуйста, уточните, по какому вопросу вы хотите связаться с коммерческим отделом?",
+      "timestamp": "02:28:42"
+    },
+    {
+      "speaker": "client",
+      "text": "про краску узнать",
+      "timestamp": "02:28:52"
+    },
+    {
+      "speaker": "bot",
+      "text": "     Я правильно понимаю, вы хотите узнать о краске?",
+      "timestamp": "02:29:02"
+    },
+    {
+      "speaker": "client",
+      "text": "да",
+      "timestamp": "02:29:12"
+    },
+    {
+      "speaker": "bot",
+      "text": "     Давайте проверим информацию: ваше имя - Аванес, контактный телефон - 89573625142, город - Москва, вы хотите связаться с коммерческим отделом по вопросу краски. Всё верно?",
+      "timestamp": "02:29:22"
+    },
+    {
+      "speaker": "client",
+      "text": "да",
+      "timestamp": "02:29:32"
+    }
+  ],
+  "action": {
+    "next_step": "transfer",
+    "target_department": "Коммерческий",
+    "manager_id": "mgr_placeholder"
+  },
+  "metadata": {
+    "is_repeat_call": true,
+    "call_history_id": [],
+    "is_work_time": true,
+    "sip_status": "answered",
+    "llm_retry_count": 0,
+    "fallback_triggered": false
+  }
+}

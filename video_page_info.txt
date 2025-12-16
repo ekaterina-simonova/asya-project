@@ -1,0 +1,161 @@
+URL: https://khromova-olga.ru/pl/teach/control/lesson/view?id=323662388
+Title: 103. Подарок. Испытания в Вашей жизни
+Page source length: 224831
+
+=== IFRAME INFORMATION ===
+Iframe 1: src=https://player02.getcourse.ru/sign-player/?json=eyJ2aWRlb19oYXNoIjoiNGRkZWU4ZWEzOTc1YjFmMDczMzAxNjE3N2RhZGJhNGYiLCJ1c2VyX2lkIjoyOTU0NDI4MDIsInN1Yl9sb2dpbl91c2VyX2lkIjpudWxsLCJsZXNzb25faWQiOjMyMzY2MjM4OCwiaXAiOiI3OC4xMDYuNDMuMjI0IiwiZ2NfaG9zdCI6Imtocm9tb3ZhLW9sZ2EucnUiLCJ0aW1lIjoxNzU3MjU1NDkyLCJwYXlsb2FkIjoidV8yOTU0NDI4MDIiLCJ1aV9sYW5ndWFnZSI6InJ1IiwiaXNfaGF2ZV9jdXN0b21fc3R5bGUiOnRydWV9&s=a5b76f34cd0f4d4e8d596342cc697134&new-design=1, width=, height=
+
+=== PAGE SOURCE (first 10000 characters) ===
+<html lang="ru"><head><style class="vjs-styles-defaults">
+      .video-js {
+        width: 300px;
+        height: 150px;
+      }
+
+      .vjs-fluid {
+        padding-top: 56.25%
+      }
+    </style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+			<meta name="google-play-app" content="app-id=com.chatium.app">
+		
+		
+			<script type="text/javascript">
+			window.redesignedMenuActiveItem = '';
+		</script>
+		
+	
+			<link rel="shortcut icon" href="https://fs.getcourse.ru/fileservice/file/download/a/60946/sc/121/h/74e2fb2426d3936374cd66e84c963df7.jpeg">
+	
+		<title>103. Подарок. Испытания в Вашей жизни</title>
+			
+<script>
+	
+	window.accountUserId = 295442802;
+	window.requestIp = "78.106.43.224";
+	window.isSublogined = false;
+	window.accountId = 60946;
+	window.gcSessionId = 8210647299;
+	window.controllerId = "control/lesson";
+	window.actionId = "view";
+    window.nowTime = new Date(2025, 8, 07, 17, 31, 33);
+    window.dateOffset = 3;
+	window.userInfo = {"isAdmin":false,"isInAccount":true,"isTeacher":false};
+	window.currencyLabels = {"RUB":"RUB","USD":"USD","EUR":"EUR","GBP":"GBP","BYR":"BYR","BYN":"BYN","KZT":"KZT","UAH":"UAH","AUD":"AUD","DKK":"DKK","CHF":"CHF","SEK":"SEK","ZAR":"ZAR","AMD":"AMD","RON":"RON","BRL":"BRL","ILS":"ILS","MYR":"MYR","SGD":"SGD","KGS":"KGS","CAD":"CAD","MXN":"MXN","JPY":"JPY","UZS":"UZS","PLN":"PLN","AZN":"AZN","AED":"AED","TRY":"TRY","INR":"INR","RSD":"RSD","CZK":"CZK","MNT":"MNT","NZD":"NZD","BGN":"BGN","IDR":"IDR","CNY":"CNY","GEL":"GEL","COP":"COP","ARS":"ARS","PEN":"PEN","CLP":"CLP","VND":"VND","PHP":"PHP","DOP":"DOP","KRW":"KRW","TWD":"TWD","MDL":"MDL","TJS":"TJS","NOK":"NOK","NGN":"NGN","POINTS":""};
+window.accountSafeUserName = "\u0435\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0430 \u0418\u043c\u043f\u0440\u043e\u043c\u043f\u0442\u0443";
+window.accountUserThumbnail = "<img loading='lazy' width='50' class='user-profile-image ' src='\/\/fs-thb01.getcourse.ru\/fileservice\/file\/thumbnail\/h\/AB.804421b803236f33f123150cccb3d373.jpeg\/s\/50x50\/a\/60946\/sc\/131'>";
+window.language = "ru";
+window.csrfToken = "BRGZ2u0cgmolHQWYB0hR2lT9VrMvVps5XwtWrzbTKQRJZ-GPgmS1K3EwZ_VVOyGyHrZn9XxlqH5vWhXhb5VCZg==";
+window.requestTime = 1757255493;
+window.requestSimpleSign = "998967b5cdf2294829aba6e8cbb71697";
+window.gcUniqId = "81647302068bd974524a0a3.39444375.1757255493.15";
+window.mailingVisibility = 0;
+window.isSupportChatEnabled = false;
+window.disableCaptchaForConfirmPhone = true;
+window.allowRevealPassword = false;
+window.isDisabledConvertIndexToSimple = false;
+window.params_52 = 0;
+window.isSessionLocalStorageEnabled = true;
+window.isWhatsappIconEnabled = false;
+window.file_upload_blocking = false;
+window.storage_usage_percent = null;
+window.used_storage_size = null;
+window.max_storage_size = null;
+window.fileserviceThumbnailHost = "fs-thb01.getcourse.ru";
+window.fileserviceMainHost = "fs02.getcourse.ru";
+window.fileserviceUploadHost = "fs01.getcourse.ru";
+window.fileserviceTusFeatureEnabled = true;
+window.iCanSelectGridOffset = true;
+window.webinarUsePlayer15 = true;
+window.isEnabledSecureUpload = 1;
+window.webinarWebsocketHosts = ["ws03.getcourse.ru","stream01.gcfiles.net"];
+window.webinarWebsocketPath = "\/ws2\/webinar";
+window.webSocketHost = "ws04.getcourse.ru";
+window.fdsrevEnabled12 = true;
+window.isDisabledFacebook = true;
+window.metaIsAnExtremismOrganizationText = "\u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f Meta \u043f\u0440\u0438\u0437\u043d\u0430\u043d\u0430 \u044d\u043a\u0441\u0442\u0440\u0435\u043c\u0438\u0441\u0442\u043a\u043e\u0439 \u0432 \u0420\u0424.";
+window.isTestingV2 = false;
+window.testingV2VersionCheck = false;
+window.isDisabledVK = false;
+window.autoGenerateSubtitlesSectionEnabled = true;
+window.internalDomains = ["khromova-olga.ru","khromova-olga.getcourse.ru"];
+window.vhApiHost = "player02.getcourse.ru";
+window.vhsRegion = "ru";
+window.videoLinkFeatureUsed = 0;
+window.helpdeskEnabledFeature = false;
+window.helpdeskTalksEnabledFeature = false;
+window.enabledTariffsPage = true;
+window.relatedUsersOnActiveBlock = true;
+window.UShort = "WzI5NTQ0MjgwMl0.FEUBBJe4dVHqMrGl9FMox-R2JOVh0FuG_O75Q_r13lU";
+window.ULong = "WzI5NTQ0MjgwMiwiXHUwNDM1XHUwNDNhXHUwNDMwXHUwNDQyXHUwNDM1XHUwNDQwXHUwNDM4XHUwNDNkXHUwNDMwIiwiXHUwNDE4XHUwNDNjXHUwNDNmXHUwNDQwXHUwNDNlXHUwNDNjXHUwNDNmXHUwNDQyXHUwNDQzIiwidXNlciIsMCwiaHR0cHM6Ly9mcy5nZXRjb3Vyc2UucnUvZmlsZXNlcnZpY2UvZmlsZS9kb3dubG9hZC9hLzYwOTQ2L3NjLzEzMS9oL0FCLjgwNDQyMWI4MDMyMzZmMzNmMTIzMTUwY2NjYjNkMzczLmpwZWciLCJ6YmVhc3Rlc3RAeWFuZGV4LnJ1IiwiKzc5MDM4OTIwNDgyIl0.Xpjgfa_LHJVGOa3vwKzsAn9Yk5DWsvXuwlqpuewJIvc";
+window.gcRedesign = {"isLessonRedesignEnabled":false};
+window.attachContactToUserUpdateFeature = false;
+</script>
+
+<script type="text/javascript">
+
+		
+	window.userInfo = {"isAdmin":false,"isManager":false,"isInAccount":true,"isTeacher":false,"canCms":false,"canEditHelp":false,"isHumanDesign":"0"};
+
+</script>
+
+	<link href="/public/fonts/gfonts/montserrat/montserrat.css" rel="stylesheet">
+<link href="/pl/fileservice/video-hosting/player-style" rel="stylesheet">
+<link href="/public/css/filelist.css" rel="stylesheet">
+<link href="/pl/nassets/b6f806c8/css/bootstrap.min.css?v=1748094543" rel="stylesheet">
+<link href="/pl/nassets/5cc4b6b1/select2.min.css?v=1748094544" rel="stylesheet">
+<link href="/pl/nassets/5cc4b6b1/select2-kv.min.css?v=1748094544" rel="stylesheet">
+<link href="/pl/nassets/ccbb8f45/css/videoplayer.css?v=1748094542" rel="stylesheet">
+<link href="/pl/nassets/d9b8b39f/uploadifive.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/8ad1d3a9/css/video-js.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/8ad1d3a9/css/plugins/videojs-seek-buttons.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/dc774405/css/index.css?v=202509071731" rel="stylesheet">
+<link href="/pl/nassets/176e8f4a/glyphicons.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/d15964b7/css/reveal-password.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/css/superlite-block-a2d69dc8cba2fb583968843c1c3ecc59.css?v=1757086325" rel="stylesheet" async="async">
+<link href="/public/fonts/gfonts/open-sans/open-sans-cyr-swap.css" rel="stylesheet" async="async">
+<link href="/public/fonts/gfonts/roboto/roboto-cyr-swap.css" rel="stylesheet" async="async">
+<link href="/pl/nassets/ca677c31/themes/smoothness/jquery-ui.css?v=1748094543" rel="stylesheet">
+<link href="/pl/nassets/34d2a894/toast/css/jquery.toast.min.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/7e886044/jquery.emojiarea.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/7e886044/emoji.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/a9f792d5/css/all.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/a9f792d5/css/v5-font-face.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/a9f792d5/css/v4-font-face.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/a9f792d5/css/v4-shims.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/a9f792d5/css/old.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/50d98807/css/modal.css?v=1754640308" rel="stylesheet">
+<link href="/pl/nassets/b8946cf8/css/jquery.Jcrop.min.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/b52047c6/css/jquery.dataTables.min.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/24d4d8eb/css/file-dialog.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/24d4d8eb/css/file-widget-with-dialog.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/24d4d8eb/css/video-grid.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/c727c900/redactor.min.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/2c350652/css/questions-editor.css?v=1753345923" rel="stylesheet">
+<link href="/pl/nassets/2c350652/css/testing-widget.css?v=1748094543" rel="stylesheet">
+<link href="/pl/nassets/a4dd1848/mission-addfields.css?v=1748094543" rel="stylesheet">
+<link href="/pl/nassets/beb65f61/css/star-rating-widget.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/821d5849/css/training_feedback_widget.css?v=1748094543" rel="stylesheet">
+<link href="/pl/nassets/89bfd734/css/blueimp-gallery.min.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/89bfd734/css/blueimp-gallery-indicator.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/add7304b/editor/css/editor.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/c746ae82/answers.css?v=1748094543" rel="stylesheet">
+<link href="/pl/nassets/e0fc36a8/colpick.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/css/tags-a4ffab408734cc692f9c956be7634162.css?v=1757086325" rel="stylesheet">
+<link href="/pl/nassets/6756c6a2/like-and-subscribe-notifications.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/4918fd53/css/like.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/99ed91fb/css/subscribe.css?v=1748094542" rel="stylesheet">
+<link href="/pl/nassets/7ce92119/css/audio-comments.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/a88355f1/proxima.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/aa8d00f3/css/user-form.css?v=1748094543" rel="stylesheet">
+<link href="/pl/nassets/a119bdbc/css/flex-audio-js.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/a119bdbc/css/comments.css?v=1756107347" rel="stylesheet">
+<link href="/pl/nassets/a119bdbc/css/comment_reply_open.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/5bcf37dc/bootstrap-social.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/50d98807/css/object-front-popup.css?v=1748094542" rel="stylesheet">
+<link href="/pl/nassets/644c2834/css/menu.css?v=1753787901" rel="stylesheet">
+<link href="/pl/nassets/24d681c9/statuses.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/818a17ad/standard.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/818a17ad/fonts.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/6760fd9d/notice.css?v=1748094541" rel="stylesh

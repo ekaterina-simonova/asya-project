@@ -1,0 +1,80 @@
+{
+  "call_id": "3a968ead-5e17-4068-a0c6-89f2144f9029",
+  "timestamp": "2025-08-21T03:51:12.280865",
+  "client_data": {
+    "phone_number": 89067583746,
+    "name": "Анна",
+    "object": "",
+    "city": "москва",
+    "region": {
+      "code": "сentral_fd",
+      "name": "Центральный ФО"
+    },
+    "inn": 6847362516.0,
+    "company": "ОО ЗАК",
+    "is_duplicate_city": false,
+    "assigned_manager_id": null,
+    "last_call_summary": "",
+    "comment": null
+  },
+  "request_details": {
+    "department": "Коммерческий",
+    "product_service": null,
+    "request_text": ""
+  },
+  "transcription": [
+    {
+      "speaker": "bot",
+      "text": " [SYSTEM_COMMAND]SET_STAGE:Выбор отдела[/SYSTEM_COMMAND]\n\nЗдравствуйте, Анна! Рада снова слышать вас. Я Ася, нейропомощник МиК-Изол. С каким отделом вас соединить: Коммерческий, Бухгалтерский, Отдел логистики, Отдел закупок, Отдел маркетинга?",
+      "timestamp": "03:51:32"
+    },
+    {
+      "speaker": "client",
+      "text": "коммерческий",
+      "timestamp": "03:51:42"
+    },
+    {
+      "speaker": "bot",
+      "text": "  [SYSTEM_COMMAND]UPDATE_PROFILE_FIELD:Отдел=Коммерческий[/SYSTEM_COMMAND]\n\nДля соединения с менеджером коммерческого отдела мне нужно знать ваш город. Это поможет направить вас к специалисту, который работает с вашим регионом. Из какого вы города?",
+      "timestamp": "03:51:52"
+    },
+    {
+      "speaker": "client",
+      "text": "масква",
+      "timestamp": "03:52:02"
+    },
+    {
+      "speaker": "bot",
+      "text": "   [SYSTEM_COMMAND]UPDATE_PROFILE_FIELD:Город=Москва[/SYSTEM_COMMAND]\n\nПожалуйста, уточните, по какому вопросу вы хотите связаться с коммерческим отделом?",
+      "timestamp": "03:52:12"
+    },
+    {
+      "speaker": "client",
+      "text": "по поводу краски",
+      "timestamp": "03:52:22"
+    },
+    {
+      "speaker": "bot",
+      "text": "  [SYSTEM_COMMAND]UPDATE_PROFILE_FIELD:Потребность=Консультация по краске[/SYSTEM_COMMAND]\n\nДавайте проверим информацию: ваше имя - Анна, контактный телефон - 89067583746, город - Москва, вы хотите связаться с коммерческим отделом по вопросу консультации по краске. Всё верно?",
+      "timestamp": "03:52:32"
+    },
+    {
+      "speaker": "client",
+      "text": "да",
+      "timestamp": "03:52:42"
+    }
+  ],
+  "action": {
+    "next_step": "transfer",
+    "target_department": "Коммерческий",
+    "manager_id": "mgr_placeholder"
+  },
+  "metadata": {
+    "is_repeat_call": true,
+    "call_history_id": [],
+    "is_work_time": true,
+    "sip_status": "answered",
+    "llm_retry_count": 0,
+    "fallback_triggered": false
+  }
+}

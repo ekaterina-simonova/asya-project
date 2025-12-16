@@ -1,0 +1,117 @@
+{
+  "call_id": "62a9f8bf-df58-4554-a815-a00a662b08fe",
+  "timestamp": "2025-08-21T04:04:41.736142",
+  "client_data": {
+    "phone_number": 89067583746,
+    "name": "Анна",
+    "object": "",
+    "city": "Москва",
+    "region": null,
+    "inn": 6847362516.0,
+    "company": "ОО ЗАК",
+    "is_duplicate_city": false,
+    "assigned_manager_id": null,
+    "last_call_summary": "",
+    "comment": null
+  },
+  "request_details": {
+    "department": "",
+    "product_service": null,
+    "request_text": ""
+  },
+  "transcription": [
+    {
+      "speaker": "bot",
+      "text": " Ася: Здравствуйте, Анна! Рада снова слышать вас. Я Ася, нейропомощник МиК-Изол. Соединить Вас с менеджером или проконсультировать по продуктам?",
+      "timestamp": "04:05:01"
+    },
+    {
+      "speaker": "client",
+      "text": "с менеджером",
+      "timestamp": "04:05:11"
+    },
+    {
+      "speaker": "bot",
+      "text": " Ася: Хорошо, Анна. С каким отделом вас соединить: Коммерческий, Бухгалтерский, Отдел логистики, Отдел закупок, Отдел маркетинга?",
+      "timestamp": "04:05:21"
+    },
+    {
+      "speaker": "client",
+      "text": "коммерческий",
+      "timestamp": "04:05:31"
+    },
+    {
+      "speaker": "bot",
+      "text": "  Ася: Для соединения с менеджером коммерческого отдела мне нужно знать ваш город. Это поможет направить вас к специалисту, который работает с вашим регионом. Из какого вы города, Анна?",
+      "timestamp": "04:05:41"
+    },
+    {
+      "speaker": "client",
+      "text": "москва",
+      "timestamp": "04:05:51"
+    },
+    {
+      "speaker": "bot",
+      "text": "   Ася: Записала! Из какого отдела вы хотите связаться с нами, Анна?",
+      "timestamp": "04:06:01"
+    },
+    {
+      "speaker": "client",
+      "text": "коммерческим",
+      "timestamp": "04:06:11"
+    },
+    {
+      "speaker": "bot",
+      "text": "   Ася: Я правильно вас поняла, вы хотите связаться с коммерческим отделом?",
+      "timestamp": "04:06:21"
+    },
+    {
+      "speaker": "client",
+      "text": "да",
+      "timestamp": "04:06:31"
+    },
+    {
+      "speaker": "bot",
+      "text": "    Ася: Пожалуйста, уточните, по какому вопросу вы хотите связаться с коммерческим отделом?",
+      "timestamp": "04:06:41"
+    },
+    {
+      "speaker": "client",
+      "text": "возврат",
+      "timestamp": "04:06:51"
+    },
+    {
+      "speaker": "bot",
+      "text": "     Ася: Я правильно поняла, вы хотите оформить возврат товара?",
+      "timestamp": "04:07:01"
+    },
+    {
+      "speaker": "client",
+      "text": "да",
+      "timestamp": "04:07:11"
+    },
+    {
+      "speaker": "bot",
+      "text": "     Ася: Давайте проверим информацию: ваше имя - Анна, контактный телефон - 89067583746, город - Москва, вы хотите связаться с коммерческим отделом по вопросу оформления возврата товара. Всё верно?",
+      "timestamp": "04:07:21"
+    },
+    {
+      "speaker": "client",
+      "text": "да",
+      "timestamp": "04:07:31"
+    }
+  ],
+  "action": {
+    "next_step": "transfer",
+    "target_department": "",
+    "manager_id": null
+  },
+  "metadata": {
+    "is_repeat_call": true,
+    "call_history_id": [],
+    "is_work_time": true,
+    "sip_status": "answered",
+    "llm_retry_count": 0,
+    "fallback_triggered": false
+  }
+}

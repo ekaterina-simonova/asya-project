@@ -1,0 +1,131 @@
+{
+  "call_id": "3680d526-518c-4bbc-aaf2-1ea9cc33fefb",
+  "client_id": "37299042-2076-4c83-8a73-28cfed0547be",
+  "timestamp": "2025-08-31T01:34:10.755186",
+  "client_data": {
+    "phone_number": "+79066678362",
+    "name": "",
+    "object": "",
+    "city": "москва",
+    "region": {
+      "code": "сentral_fd",
+      "name": "Центральный ФО"
+    },
+    "inn": null,
+    "company": null,
+    "is_duplicate_city": false,
+    "assigned_manager_id": null,
+    "last_call_summary": "",
+    "comment": ""
+  },
+  "request_details": {
+    "department": "Логистика",
+    "product_service": null,
+    "request_text": ""
+  },
+  "transcription": [
+    {
+      "speaker": "bot",
+      "text": " Здравствуйте! Вы позвонили в МиК-Изол. Меня зовут Ася, я нейропомощник и я помогу вам связаться с нужным специалистом. Это займет пару минут. Пожалуйста, назовите ваше имя?",
+      "timestamp": "01:34:30"
+    },
+    {
+      "speaker": "client",
+      "text": "Анна",
+      "timestamp": "01:34:40"
+    },
+    {
+      "speaker": "bot",
+      "text": "  Я правильно записала, вас зовут Анна, верно?",
+      "timestamp": "01:34:50"
+    },
+    {
+      "speaker": "client",
+      "text": "да",
+      "timestamp": "01:35:00"
+    },
+    {
+      "speaker": "bot",
+      "text": "   Можно ли использовать определившийся номер 79066678362 для связи с вами?",
+      "timestamp": "01:35:10"
+    },
+    {
+      "speaker": "client",
+      "text": "да",
+      "timestamp": "01:35:20"
+    },
+    {
+      "speaker": "bot",
+      "text": "   Пожалуйста, назовите город?",
+      "timestamp": "01:35:30"
+    },
+    {
+      "speaker": "client",
+      "text": "Москва",
+      "timestamp": "01:35:40"
+    },
+    {
+      "speaker": "bot",
+      "text": "    Записала! Из какого отдела вам нужен специалист: Коммерческий, Бухгалтерский, Отдел логистики, Отдел закупок, Отдел маркетинга?",
+      "timestamp": "01:35:50"
+    },
+    {
+      "speaker": "client",
+      "text": "Логистики",
+      "timestamp": "01:36:00"
+    },
+    {
+      "speaker": "bot",
+      "text": "    Я правильно вас поняла, вы хотите связаться с отделом логистики?",
+      "timestamp": "01:36:10"
+    },
+    {
+      "speaker": "client",
+      "text": "да",
+      "timestamp": "01:36:20"
+    },
+    {
+      "speaker": "bot",
+      "text": "     Пожалуйста, уточните, по какому вопросу вы хотите связаться с отделом логистики?",
+      "timestamp": "01:36:30"
+    },
+    {
+      "speaker": "client",
+      "text": "про логистику",
+      "timestamp": "01:36:40"
+    },
+    {
+      "speaker": "bot",
+      "text": "     Я правильно понимаю, вы хотите узнать о работе отдела логистики?",
+      "timestamp": "01:36:50"
+    },
+    {
+      "speaker": "client",
+      "text": "да",
+      "timestamp": "01:37:00"
+    },
+    {
+      "speaker": "bot",
+      "text": "      Давайте проверим информацию: ваше имя - Анна, контактный телефон - 79066678362, город - Москва, вы хотите связаться с отделом логистики по вопросу работы отдела. Всё верно?",
+      "timestamp": "01:37:10"
+    },
+    {
+      "speaker": "client",
+      "text": "да",
+      "timestamp": "01:37:20"
+    }
+  ],
+  "action": {
+    "next_step": "transfer",
+    "target_department": "Логистика",
+    "manager_id": null
+  },
+  "metadata": {
+    "is_repeat_call": false,
+    "call_history_id": [],
+    "is_work_time": true,
+    "sip_status": "answered",
+    "llm_retry_count": 0,
+    "fallback_triggered": false
+  }
+}

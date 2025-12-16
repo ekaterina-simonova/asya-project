@@ -1,0 +1,22 @@
+2025-08-31 02:17:38,715 - INFO - Данные успешно загружены из базы данных.
+2025-08-31 02:18:29,409 - INFO - find_client_by_phone: Клиент с номером +79118473626 не найден в df_clients
+2025-08-31 02:18:29,409 - INFO - [Система] Клиент с таким номером не найден.
+2025-08-31 02:18:29,409 - INFO - Номер телефона нормализован и обновлен: +79118473626
+2025-08-31 02:19:00,794 - ERROR - Ошибка API: 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2025-08-31 02:19:00,794 - ERROR - Критическая ошибка в основном цикле: Ошибка API: 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+Traceback (most recent call last):
+  File "C:\Users\Ekaterina.Simonova\Downloads\Ася\final_sql.py", line 608, in get_llm_response
+    response.raise_for_status()
+  File "C:\Users\Ekaterina.Simonova\Downloads\Ася\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Ekaterina.Simonova\Downloads\Ася\final_sql.py", line 1042, in main
+    raw_response = get_llm_response(history, profile, system_info="")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ekaterina.Simonova\Downloads\Ася\final_sql.py", line 614, in get_llm_response
+    raise RuntimeError(f"Ошибка API: {str(e)}")
+RuntimeError: Ошибка API: 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
