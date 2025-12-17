@@ -1,9 +1,17 @@
 import sqlite3
 import uuid
+import json
+import logging
 from typing import Dict, List, Any, Optional
 from datetime import datetime
 
-from asya_core.schemas import CallProfile, TranscriptSegment, CallLog
+# Если asya_core.schemas нет или он незавершён — не ломаемся
+try:
+    from asya_core.schemas import CallProfile, TranscriptSegment, CallLog  # type: ignore
+except ImportError:
+    CallProfile = Dict[str, Any]
+    TranscriptSegment = Any
+    CallLog = Any
 
 logger = logging.getLogger(__name__)
 
@@ -14,7 +22,7 @@ class DatabaseManager:
     НЕ содержит бизнес-логики — всё логика в dialog_manager.py.
     """
 
-    def __init__(self, db_path: str = "data/clients.db"):
+    def __init__(self, db_path: str = "db/clients.db"):
         """
         Инициализация менеджера базы данных.
         
@@ -129,6 +137,19 @@ class DatabaseManager:
         conn.commit()
         conn.close()
         logger.info("База данных инициализирована/проверена.")
+
+    async def check_connection(self) -> bool:
+        """
+        Простейшая проверка доступности БД для /health/full.
+        """
+        try:
+            conn = sqlite3.connect(self.db_path)
+            conn.execute("SELECT 1")
+            conn.close()
+            return True
+        except Exception as e:
+            logger.error(f"Ошибка при проверке соединения с БД: {e}")
+            return False
 
     def save_call_data(self, profile: CallProfile, transcript: List[TranscriptSegment], history: List[Dict[str, str]]):
         """
