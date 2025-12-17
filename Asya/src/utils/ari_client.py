@@ -105,46 +105,67 @@ class AriClient:
             return []
 
     async def originate_call(
-        self,
-        endpoint: str,
-        caller_id: str,
-        context: str,
-        extension: str,
-        variables: Optional[dict] = None,
-    ) -> str:
-        """
-        Инициирует исходящий звонок через ARI.
-        Возвращает ID канала (call_id) при успехе.
-        """
-        if self.session is None:
-            await self.connect()
+            self,
+            endpoint: str,
+            caller_id: str,
+            context: str,
+            extension: str,
+            variables: dict = None,
+        ):
+            """
+            Инициировать исходящий звонок через ARI.
 
-        url = f"{self.base_url}/ari/channels"
-        params = {
-            "endpoint": endpoint,
-            "app": self.app_name,
-            "callerId": caller_id,
-            "context": context,
-            "extension": extension,
-        }
+            ВАЖНО:
+            ARI ожидает параметры originate в query-строке, а не в JSON-теле.
+            /ari/channels?endpoint=...&app=...&callerId=...&context=...&extension=...
+            """
+            if not self.session:
+                await self.connect()
 
-        if variables:
-            for k, v in variables.items():
-                params[f"variables[{k}]"] = v
+            url = f"{self.base_url}/ari/channels"
 
-        try:
-            async with self.session.post(url, params=params) as resp:
-                if resp.status in (200, 202):
-                    result = await resp.json()
-                    call_id = result.get("id")
-                    logger.info(f"📞 ARI: исходящий звонок инициирован {call_id} → {endpoint}")
-                    return call_id
-                text = await resp.text()
-                logger.error(f"❌ ARI: originate_call {resp.status}: {text}")
-                raise RuntimeError(f"ARI originate error {resp.status}: {text}")
-        except Exception as e:
-            logger.error(f"❌ ARI: исключение в originate_call: {e}")
-            raise
+            # Параметры в query-строке
+            params = {
+                "endpoint": endpoint,
+                "app": self.app_name,
+                "callerId": caller_id,
+                "context": context,
+                "extension": extension,
+            }
+
+            # Переменные в теле (по желанию)
+            payload = {}
+            if variables:
+                payload["variables"] = variables
+
+            try:
+                async with self.session.post(url, params=params, json=payload or None) as resp:
+                    # ARI обычно возвращает 200 с JSON (channel)
+                    # или 202 / 204 без тела
+                    if resp.status in (200, 202, 204):
+                        call_id = None
+                        try:
+                            data = await resp.json()
+                            call_id = data.get("id")
+                        except Exception:
+                            # Тело может быть пустым (204) — это не ошибка
+                            call_id = None
+
+                        logger.info(
+                            f"📞 Исходящий звонок инициирован через ARI: "
+                            f"endpoint={endpoint}, context={context}, extension={extension}, "
+                            f"status={resp.status}, call_id={call_id}"
+                        )
+                        return call_id
+                    else:
+                        text = await resp.text()
+                        logger.error(
+                            f"❌ Ошибка инициации звонка через ARI: {resp.status} - {text}"
+                        )
+                        raise RuntimeError(f"ARI originate error {resp.status}: {text}")
+            except Exception as e:
+                logger.error(f"❌ Исключение при инициации звонка: {e}", exc_info=True)
+                raise
 
     async def hangup_call(self, call_id: str) -> bool:
         """Завершает звонок по ID канала."""
