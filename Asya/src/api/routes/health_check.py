@@ -3,7 +3,7 @@
 Endpoints для проверки здоровья сервиса и его компонентов.
 """
 
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter
 from typing import Dict, Any
 from datetime import datetime
 
@@ -29,12 +29,12 @@ async def health_check() -> Dict[str, Any]:
 
 
 @router.get("/health/full")
-async def full_health_check(
-    ari_client: AriClient = Depends(AriClient),
-    db_manager: DatabaseManager = Depends(DatabaseManager),
-) -> Dict[str, Any]:
-    """
+async def full_health_check() -> Dict[str, Any]:
+    """me
     Полная проверка здоровья всех компонентов системы.
+
+    Не используем Depends, чтобы не ловить 500,
+    если конструктор DatabaseManager или AriClient упадёт.
     """
     health_status: Dict[str, Any] = {
         "timestamp": datetime.now().isoformat(),
@@ -44,8 +44,9 @@ async def full_health_check(
         "details": {},
     }
 
-    # База данных
+    # --- Проверка БД ---
     try:
+        db_manager = DatabaseManager()  # db/clients.db
         db_connected = await db_manager.check_connection()
         health_status["database"] = "healthy" if db_connected else "unhealthy"
         health_status["details"]["database"] = {
@@ -53,14 +54,16 @@ async def full_health_check(
             "checked_at": datetime.now().isoformat(),
         }
     except Exception as e:
+        logger.error(f"Ошибка health_check для БД: {e}")
         health_status["database"] = "unhealthy"
         health_status["details"]["database"] = {
             "error": str(e),
             "connected": False,
         }
 
-    # ARI
+    # --- Проверка ARI ---
     try:
+        ari_client = AriClient()
         ari_connected = await ari_client.check_connection()
         health_status["asterisk_ari"] = "healthy" if ari_connected else "unhealthy"
         health_status["details"]["asterisk_ari"] = {
@@ -68,6 +71,7 @@ async def full_health_check(
             "checked_at": datetime.now().isoformat(),
         }
     except Exception as e:
+        logger.error(f"Ошибка health_check для ARI: {e}")
         health_status["asterisk_ari"] = "unhealthy"
         health_status["details"]["asterisk_ari"] = {
             "error": str(e),
