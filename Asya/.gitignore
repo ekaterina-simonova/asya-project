@@ -1,0 +1,29 @@
+# виртуальное окружение
+venv/
+.env/
+
+# python артефакты
+pycache/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# аудиозаписи звонков
+src/ari_bot/call_records/
+*.wav
+
+# модели и веса
+src/ari_bot/models/
+*.pt
+*.nemo
+*.gguf
+
+# базы данных
+*.db
+
+# временные файлы / IDE
+.idea/
+.vscode/
+*.swp
+*.swo

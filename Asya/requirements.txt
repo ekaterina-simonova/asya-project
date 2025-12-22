@@ -18,7 +18,7 @@ pydub>=0.25.1
 ffmpeg-python>=0.2.0
 
 # --- NeMo (STT / VAD) ---
-nemo_toolkit[asr]==1.20.0
+nemo_toolkit[asr]
 
 # --- Silero TTS ---
 silero==0.7.0
